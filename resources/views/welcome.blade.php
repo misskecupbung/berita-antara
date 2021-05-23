@@ -19,8 +19,8 @@
 <div id="appendDivNews">
     <nav class="navbar fixed-top navbar-light bg-faded" style="background-color: #e3f2fd;">
         <a class="navbar-brand" href="#">Berita Antara</a>
-        <a class="navbar-brand" href="/login">Login</a>
-        <a class="navbar-brand" href="/register">Register</a>
+        <a class="navbar-brand navbar-right" href="/login">Login</a>
+        <a class="navbar-brand navbar-right" href="/register">Register</a>
     </nav>
     {{ csrf_field() }}
     <section id="content" class="section-dropdown">
