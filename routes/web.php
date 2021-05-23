@@ -15,10 +15,6 @@
 Route::get('/', 'ApiController@displayNews');
 Route::post('/sourceId', 'ApiController@displayNews');
 
-Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
