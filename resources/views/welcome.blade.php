@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>News Application with Laravel</title>
+    <title>Berita Antara</title>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
 
@@ -18,7 +18,7 @@
 <body>
 <div id="appendDivNews">
     <nav class="navbar fixed-top navbar-light bg-faded" style="background-color: #e3f2fd;">
-        <a class="navbar-brand" href="#">News Around the World</a>
+        <a class="navbar-brand" href="#">Berita Antara</a>
     </nav>
     {{ csrf_field() }}
     <section id="content" class="section-dropdown">
